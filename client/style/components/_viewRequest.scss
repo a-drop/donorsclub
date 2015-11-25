@@ -1,0 +1,39 @@
+.view-request {
+	.blood-group {
+		font-size: 120px;
+		line-height: normal;
+	}
+	.main-details {
+		margin-top: 35px;
+		@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+	}
+	.more-details {
+		.address, .created-by {
+			text-align: center;
+		}
+		.map {
+			img {
+				width: 100%;
+			}
+		}
+		.buttons {
+			margin-top: 20px;
+			margin-bottom: 10px;
+			.donation-request, .back, .share {
+				@media screen and (min-width: 768px) {
+					float: right;
+					margin-left: 10px;
+				}
+				@media screen and (max-width: 767px) {
+					display: block;
+					width: 100%;
+					text-align: center;
+					margin-bottom: 5px;
+				}
+			}
+		}
+
+	}
+}

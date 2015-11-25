@@ -20,7 +20,7 @@ accounts-base
 accounts-password
 accounts-facebook
 accounts-google
-iron:router
+accounts-twitter
 fourseven:scss
 accounts-ui
 themeteorchef:jquery-validation
@@ -32,3 +32,9 @@ service-configuration
 aldeed:collection2
 juliancwirko:s-alert
 email
+dburles:collection-helpers
+react
+kadira:flow-router
+kadira:react-layout
+markoshust:radium
+grigio:babel

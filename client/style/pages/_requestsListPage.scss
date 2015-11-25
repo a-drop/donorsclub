@@ -1,0 +1,15 @@
+.request-list-page{
+	.page-header {
+		h4 {
+			display: inline-block;
+			width: calc( 100% - 35px );
+		}
+		button.options-toggle {
+			margin-top: -6px;
+			/*&:hover {
+				background-color: #fff;
+				border: 1px solid #ccc;
+			}*/
+		}
+	}
+}

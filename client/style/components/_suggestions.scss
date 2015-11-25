@@ -1,0 +1,12 @@
+.suggestion {
+	.blood-group {
+		font-size: 120px;
+		line-height: normal;
+	}
+	.main-details {
+		margin-top: 35px;
+		@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+	}
+}

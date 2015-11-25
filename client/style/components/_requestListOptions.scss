@@ -1,0 +1,18 @@
+.options {
+	display: none;
+	/*@media screen and (min-width: 768px){
+		display: table;
+	}*/
+	width: 100%;
+	.option {
+		display: block;
+		width: 100%;
+		@media screen and (min-width: 768px){
+			display: table-cell;
+			width: auto;
+		}
+		button {
+			width: 100%;
+		}
+	}
+}

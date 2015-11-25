@@ -1,0 +1,35 @@
+.request-list-box {
+	transition: .3s  all;
+	cursor: pointer;
+	&:hover {
+		// -webkit-box-shadow: inset 0px 0px 14px 1px rgba(110, 130, 140, 0.2);
+		// -moz-box-shadow: inset 0px 0px 14px 1px rgba(110, 130, 140, 0.2);
+		// box-shadow: inset 0px 0px 14px 1px rgba(110, 130, 140, 0.2);
+		// border-color: rgba(52, 73, 94, 0.5);
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	}
+	transition: .3s  all;
+	padding: 30px;
+	.title{
+		font-size: 60px;
+		font-weight: bold;
+		margin: 0;
+		line-height: 1;
+	}
+	.short-info {
+		line-height: 1.2;
+		padding-top: 25px;
+		.amount {
+			font-size: 18px;
+			color: #636363;
+		}
+		.from-now {
+			color: #ccc;
+
+		}
+		.place {
+			color: #ccc;
+		}
+
+	}
+}
