@@ -1,4 +1,4 @@
-.login {
+.login, .register {
 
 	min-height: calc( 100vh - 40px );
 	margin-top: 20px;
@@ -28,4 +28,21 @@
 		line-height: normal;
 		max-width: 800px;
 	}
+}
+
+.register {
+  .logo img {
+		max-width: 200px;
+		margin-bottom: 40px;
+		margin-top: 70px;
+	}
+  label {
+    margin-bottom: 0;
+    small {
+
+    }
+  }
+  .register-form {
+    text-align: left;
+  }
 }

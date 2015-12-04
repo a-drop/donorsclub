@@ -8,9 +8,18 @@ Login = class Login extends React.Component {
     Meteor.loginWithFacebook({
       //requestPermissions: ['user', 'public_repo']
     }, function (err) {
-      if (err)
+      if (err){
         console.log(err);
-        Session.set('errorMessage', err.reason || 'Unknown error');
+        // Session.set('errorMessage', err.reason || 'Unknown error');
+      } else {
+        if (Meteor.user().registrationCompleted) {
+          FlowRouter.go("Home");
+        } else {
+          console.log("Please Complete Registration");
+
+          FlowRouter.go("Register");
+        }
+      }
     });
   }
 
@@ -19,9 +28,18 @@ Login = class Login extends React.Component {
     Meteor.loginWithGoogle({
       //requestPermissions: ['user', 'public_repo']
     }, function (err) {
-      if (err)
+      if (err){
         console.log(err);
-        Session.set('errorMessage', err.reason || 'Unknown error');
+        //Session.set('errorMessage', err.reason || 'Unknown error');
+      } else {
+        if (Meteor.user().registrationCompleted) {
+          FlowRouter.go("Home");
+        } else {
+          console.log("Please Complete Registration");
+
+          FlowRouter.go("Register");
+        }
+      }
     });
   }
 
@@ -30,9 +48,18 @@ Login = class Login extends React.Component {
     Meteor.loginWithTwitter({
         //requestPermissions: ['user', 'public_repo']
       }, function (err) {
-        if (err)
+        if (err) {
           console.log(err);
-          Session.set('errorMessage', err.reason || 'Unknown error');
+          //Session.set('errorMessage', err.reason || 'Unknown error');
+        } else {
+          if (Meteor.user().registrationCompleted) {
+            FlowRouter.go("Home");
+          } else {
+            console.log("Please Complete Registration");
+
+            FlowRouter.go("Register");
+          }
+        }
       }
     );
   }
