@@ -1,6 +1,7 @@
 /*Libs*/
 @import "bootstrap/bootstrap";
 @import "bootstrap/date-time-picker";
+@import "libs/datatable";
 
 /*Base*/
 @import "base/bootstrapExtended";
@@ -23,5 +24,11 @@
 
 /*Pages*/
 
-@import "pages/requestsListPage"
+@import "pages/requestsListPage";
 //@import "pages/"
+
+
+/*Admin LTE*/
+@import "adminLTE/adminLTE";
+@import "adminLTE/skin-blue";
+@import "adminLTE/extended";

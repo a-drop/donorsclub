@@ -1,5 +1,5 @@
 .options {
-	display: none;
+	// display: none;
 	/*@media screen and (min-width: 768px){
 		display: table;
 	}*/
@@ -14,5 +14,10 @@
 		button {
 			width: 100%;
 		}
+    &:not(:first-child) {
+      button {
+        border-left: 0;
+      }
+    }
 	}
 }

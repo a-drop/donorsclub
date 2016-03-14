@@ -25,7 +25,6 @@ check@1.1.0
 coffeescript@1.0.11
 cosmos:browserify@0.8.4
 dburles:collection-helpers@1.0.4
-dburles:google-maps@1.1.5
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.2
@@ -60,7 +59,6 @@ less@2.5.1
 livedata@1.0.15
 localstorage@1.0.5
 logging@1.0.8
-markoshust:radium@0.15.3
 meteor@1.1.10
 meteor-base@1.0.1
 minifiers@1.1.7
@@ -99,9 +97,8 @@ srp@1.0.4
 standard-minifiers@1.0.2
 templating@1.1.5
 templating-tools@1.0.0
-themeteorchef:jquery-validation@1.14.0
 tracker@1.0.9
-twbs:bootstrap@3.3.5
+tsega:bootstrap3-datetimepicker@4.17.37_1
 twitter@1.1.5
 ui@1.0.8
 underscore@1.0.4

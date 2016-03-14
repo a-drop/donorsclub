@@ -16,6 +16,8 @@ standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
+react
+email
 accounts-base
 accounts-password
 accounts-facebook
@@ -23,19 +25,14 @@ accounts-google
 accounts-twitter
 fourseven:scss
 accounts-ui
-themeteorchef:jquery-validation
 momentjs:moment
 alanning:roles
 fortawesome:fontawesome
-twbs:bootstrap
 service-configuration
 aldeed:collection2
 juliancwirko:s-alert
-email
 dburles:collection-helpers
-react
 kadira:flow-router
 kadira:react-layout
-markoshust:radium
 grigio:babel
-dburles:google-maps
+tsega:bootstrap3-datetimepicker

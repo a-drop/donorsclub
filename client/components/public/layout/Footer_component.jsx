@@ -5,7 +5,15 @@ Footer = class Footer extends React.Component {
   }
   render() {
     return (
-      <h1>Footer</h1>
+      <footer className="main">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              &copy; {moment(new Date()).year()} donorsclub.net
+            </div>
+          </div>
+        </div>
+      </footer>
     )
   }
 }

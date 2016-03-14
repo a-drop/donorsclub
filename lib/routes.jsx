@@ -8,12 +8,20 @@ function renderPublicLayoutWith(component) {
   });
 }
 
-/*FlowRouter("/", {
+function renderAdminLayoutWith(component) {
+  ReactLayout.render(PublicLayout, {
+    header: <Header />,
+    content: component,
+    footer: <Footer />
+  });
+}
+
+FlowRouter.route("/", {
   name: 'landing',
   action(params) {
-    ReactLayout.render('Landing');
+    ReactLayout.render( Landing );
   }
-});*/
+});
 
 
 FlowRouter.route("/login", {
@@ -34,5 +42,14 @@ FlowRouter.route("/home", {
   name: 'Home',
   action(params) {
     renderPublicLayoutWith(<Home />);
+  }
+});
+
+FlowRouter.route("/request/:id", {
+  name: 'ViewRequest',
+  action(params) {
+    console.log(params);
+
+    renderPublicLayoutWith(<RequestView />);
   }
 });
